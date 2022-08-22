@@ -3,6 +3,7 @@ import Photo from "../assets/photographPortfolio.jpeg";
 import TodoList from "../assets/todoList.jpeg";
 import Ecommerce from "../assets/ecommerce.jpeg";
 import WeatherApp from "../assets/weatherApp.jpeg";
+import Netflis from "../assets/Netflis.jpeg";
 
 const Work = () => {
   return (
@@ -27,8 +28,8 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Aplicación con React JS
+              <span className="text-1xl font-bold text-white tracking-wider">
+                Lista de Tareas con ReactJS
               </span>
               <div className="pt-8 text-center">
                 <a href="https://lista-tareas-six.vercel.app/" target="_blank">
@@ -51,8 +52,8 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Aplicación con Next JS
+              <span className="text-1xl font-bold text-white tracking-wider">
+                Ecommerce con NextJS
               </span>
               <div className="pt-8 text-center">
                 <a href="https://ecommerce-stripe-sanity-five.vercel.app/" target="_blank">
@@ -75,13 +76,13 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Aplicación con Next JS
+              <span className="text-1xl font-bold text-white tracking-wider">
+                Portfolio de fotógrafo con NextJS
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://nextjs-photographer-rjro3qobz-rodrigopalomo.vercel.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    En reparación 🛠
+                    Demo
                   </button>
                 </a>
                 <a href="https://github.com/RodrigoPalomo/nextjs-photo" target="_blank">
@@ -99,8 +100,8 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Aplicación con React JS
+              <span className="text-1xl font-bold text-white tracking-wider">
+                Pronóstico con ReactJS
               </span>
               <div className="pt-8 text-center">
                 <a href="https://weather-app-phi-ten-80.vercel.app/" target='_blank'>
@@ -117,6 +118,30 @@ const Work = () => {
             </div>
           </div>
 
+          <div
+            style={{ backgroundImage: `url(${Netflis})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-1xl font-bold text-white tracking-wider">
+                Copia de Netflix con ReactJS
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://netflis-react-a6twmh68o-rodrigopalomo.vercel.app/" target='_blank'>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/RodrigoPalomo/netflis-react" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -124,3 +149,6 @@ const Work = () => {
 };
 
 export default Work;
+
+
+// https://netflis-react-a6twmh68o-rodrigopalomo.vercel.app/
