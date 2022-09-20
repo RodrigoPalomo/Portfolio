@@ -150,7 +150,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-1xl font-bold text-white tracking-wider">
-                Pronóstico con ReactJS
+                Gym app con ReactJS
               </span>
               <div className="pt-8 text-center">
                 <a href="https://gym-react-one.vercel.app/" target='_blank'>
