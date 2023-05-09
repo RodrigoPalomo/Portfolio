@@ -7,6 +7,10 @@ import Node from '../assets/node.png';
 import GitHub from '../assets/github.png'
 import Tailwind from '../assets/tailwind.png';
 import Next from '../assets/nextjs.png';
+import Redux from '../assets/reduxPNG.png';
+import Sequelize from '../assets/sequelizePNG.png';
+import PostgreSQL from '../assets/postgreSQLPNG.png';
+import Express from '../assets/expressPNG.png';
 
 const Skills = () => {
   return (
@@ -49,6 +53,23 @@ const Skills = () => {
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-700'>
                 <img className='w-20 mx-auto' src={Next} alt="HTML icon" />
                 <p className='my-4'>Next</p>
+            </div>
+
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-700'>
+                <img className='w-20 mx-auto' src={Redux} alt="HTML icon" />
+                <p className='my-4'>Redux && Redux-Toolkit</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-700'>
+                <img className='w-20 mx-auto' src={Express} alt="HTML icon" />
+                <p className='my-4'>Express</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-700'>
+                <img className='w-20 mx-auto' src={Sequelize} alt="HTML icon" />
+                <p className='my-4'>Sequelize</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-700'>
+                <img className='w-20 mx-auto' src={PostgreSQL} alt="HTML icon" />
+                <p className='my-4'>PostgreSQL</p>
             </div>
         </div>
       </div>
